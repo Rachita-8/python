@@ -1,0 +1,14 @@
+a=5
+b="hi"
+print(type(a))
+print(type(b))
+c=[1,"hi",3]
+print(type(c))
+d=(1,2,3)
+print(type(d))
+e={1,4}
+print(type(e))
+f={
+"name":"rachi"
+}
+print(type(f))
