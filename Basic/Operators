@@ -1,0 +1,25 @@
+a=6
+b=3
+#arthimetic
+print("sum :",a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**b)
+#relational
+print("a>b" , a>b)
+print(a<b)
+print(a==b)
+print(a>=b)
+#assignment
+print("a-=b",a)
+print("a+=b",b)
+#logical
+print(not a)
+print(a<b and a>b)
+print(a<b or a>b)
+#bitwise
+print(a ^ b)
+print(a | b)
+print(~a)
