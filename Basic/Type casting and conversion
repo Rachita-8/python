@@ -1,0 +1,5 @@
+a = "5"
+b=1
+c=int(a)
+print(b+c)
+print(int(a))
