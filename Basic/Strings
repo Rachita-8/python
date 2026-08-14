@@ -1,0 +1,8 @@
+a="my name is rachita"
+print(a[:2])
+print(a[1:3])
+print(a[6:])
+print(a.capitalize())
+print(a.find("a"))
+print(a.count("a"))
+print(a.replace("r","s"))
