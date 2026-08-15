@@ -1,0 +1,7 @@
+marks= float(input("enter the marks"))
+if(marks>90):
+    print("a grade")
+elif(marks>80 and marks<90):
+        print("b")
+else:
+     print("c")
