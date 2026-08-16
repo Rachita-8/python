@@ -1,0 +1,9 @@
+a=4
+b=7
+c=7
+if(a>b and b>c):
+    print("a is larger")
+elif(a<b and b>c):
+    print("b")
+else:
+    print("c")
