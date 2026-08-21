@@ -1,0 +1,4 @@
+l=int(input("lenth"))
+b=int(input("braedth"))
+area=l*b
+print(area)
