@@ -1,0 +1,12 @@
+def perfect_not(n):
+    sum=0
+    for i in range(1,n):
+        if n%i==0:
+            sum+=i
+    print(sum)
+    if sum==n:
+        print("is perfect")
+    else:
+        print("not")
+perfect_not(6)p
+perfect_not(16)
