@@ -1,0 +1,10 @@
+n = int(input("Enter n: "))
+
+term = 7
+i = 1
+
+while i < n:
+    term = term + 6
+    i = i + 1
+
+print("Nth term =", term)
