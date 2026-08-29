@@ -1,0 +1,8 @@
+divsum=0
+divnsum=0
+for i in range(1,101):
+    if i%4==0:
+        divsum+=i
+    else:
+        divnsum+=i
+print(divnsum-divsum)  
