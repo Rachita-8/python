@@ -1,0 +1,11 @@
+s="rachitha"
+v="aeiou"
+vowel=0
+con=0
+for ch in s:
+    if ch in v:
+        vowel+=1
+    else:
+        con+=1
+print(vowel)
+print(con((())))
