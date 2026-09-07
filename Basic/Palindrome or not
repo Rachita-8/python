@@ -1,0 +1,4 @@
+s="madam"
+r=s[::-1]
+if s==r:
+    print("palindrome")
