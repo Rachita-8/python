@@ -1,0 +1,10 @@
+def sum_positive(d):
+    sum=0
+    i=0
+    n=d
+    while i<50:
+        sum+=n
+        i+=1
+        n+=10
+    print(sum)
+sum_positive(2)
