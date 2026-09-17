@@ -1,0 +1,14 @@
+n=(input())
+arr=[1,2,3,4,5,0]
+pre=[1]*n
+post=[1]*n
+res=[1]*n
+pre[0]=arr[0]
+post[n-1]=arr[n-1]
+for i in range(1,n):
+    pre[i]=pre[i-1]*arr[i-1]
+for j in range(n-2,-1,-1):
+    post[j]=post[j+1]*arr[j+1]
+for i in range(0,n):
+    res=pre[i]*post[j]
+print(res
