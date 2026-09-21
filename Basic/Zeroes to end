@@ -1,0 +1,11 @@
+list=[15,0,1,0,13,0,87,31]
+new=[]
+zero=0
+for i in list:
+    if i!=0:
+        new.append(i)
+    else:
+        zero+=1
+for i in range(zero):
+       new.append(0)
+print(new)
